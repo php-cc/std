@@ -19,5 +19,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PCC\\Std\\Tests\\": "tests/"
+        }
     }
 }
